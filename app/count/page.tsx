@@ -20,7 +20,7 @@ const page = () => {
           }
           return nextValue;
         });
-      }, 250);
+      }, 100);
     }
 
     return () => {

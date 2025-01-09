@@ -1,4 +1,8 @@
 import type { Preview } from "@storybook/react";
+import '/Users/shawn/Desktop/Crypto-Arsenal/frontend-test/node_modules/tailwindcss/tailwind.css'
+
+
+
 
 const preview: Preview = {
   parameters: {
@@ -10,6 +14,8 @@ const preview: Preview = {
       },
     },
   },
+
+  tags: ["autodocs"]
 };
 
 export default preview;
